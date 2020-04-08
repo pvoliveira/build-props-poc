@@ -1,6 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <!-- <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="2.0.1" /> -->
-
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
 
@@ -13,5 +11,4 @@
     <PackageReference Include="MSTest.TestFramework" />
     <PackageReference Include="coverlet.collector" />
   </ItemGroup>
-  <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Packages.props', '$(MSBuildThisFileDirectory)../'))" />
 </Project>

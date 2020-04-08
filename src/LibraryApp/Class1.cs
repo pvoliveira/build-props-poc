@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace LibraryApp
+﻿namespace LibraryApp
 {
     public class Class1
     {
